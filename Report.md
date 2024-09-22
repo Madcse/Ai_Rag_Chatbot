@@ -47,7 +47,7 @@ Integrated a language model (e.g., ChatGoogleGenerativeAI) to generate coherent 
 
 CHALLENGES & SOLUTIONS
 
--> Limited Resources: I could not use GPT models or OpenAI Embeddings as I did not have any credits left. So, I used the the Gemini LLM Model and got the Gemini API Key but this also has a rate limit.
+-> Limited Resources: I could not use GPT models or OpenAI Embeddings as I did not have any credits left. So, I used the the Gemini LLM Model and got the Gemini API Key but this also has a rate limit. The Resource Exhausted error crops up in case limit or quota has been exceeded when using Google's APIs.
 
 -> Long Embedding Process: Earlier I was working with a Kaggle dataset. I pre-loaded the dataset and subsequently created chunks for it and generated embeddings but this process took too long. Hence, I choose a functionality where the user will upload the documents. This proved to be a better approach to demonstrate the functioning of the application built.
 
