@@ -1,4 +1,4 @@
-This is a report detailing my approach to this assignment as well as the challenges I faced and how I solved them.
+This is a report detailing my approach to this project as well as the challenges I faced and how I solved them.
 
 1. Data Handling
 
@@ -51,5 +51,4 @@ CHALLENGES & SOLUTIONS
 
 -> Long Embedding Process: Earlier I was working with a Kaggle dataset. I pre-loaded the dataset and subsequently created chunks for it and generated embeddings but this process took too long. Hence, I choose a functionality where the user will upload the documents. This proved to be a better approach to demonstrate the functioning of the application built.
 
--> REST API: Although the task mentioned creating a REST API to expose the pipeline, but I didn't do it. The simple reason is that Streamlit apps can handle user interactions directly within the app interface, making it unnecessary to create a separate API layer for the same functionality. As the task mentioned that we can create a user interface using frameworks like Streamlit or Gradio to
-demonstrate the functionality of the developed system, therefore I did that as I felt that it was a better way to showcase the application.
+-> REST API: Although I could have created a REST API to expose the pipeline, but I didn't do it. The simple reason is that Streamlit apps can handle user interactions directly within the app interface, making it unnecessary to create a separate API layer for the same functionality.
