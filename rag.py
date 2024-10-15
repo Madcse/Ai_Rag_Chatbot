@@ -20,7 +20,7 @@ sentence_model = SentenceTransformer('all-MiniLM-L6-v2')
 os.environ['GOOGLE_API_KEY'] = "AIzaSyC1SfBdXgXtuMLhIckmNqHblvVpC1CEBJQ"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
 # Function to extract text from PDF documents
 def get_pdf_text(pdf_docs):
